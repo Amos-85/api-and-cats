@@ -1,0 +1,6 @@
+.idea
+images
+.terraform*
+terraform.tfstate*
+terraform.tfvars
+builds
