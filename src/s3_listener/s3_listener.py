@@ -46,7 +46,7 @@ def lambda_handler(event, context):
             redis.set('last_fed_timestamps', '{}'.format(datetime.now()))
             redis.set('cat_status', 'ok')
             redis.set('MESSAGE_FED_SENT', 'False')
-            redis.set('MESSAGE_FED_NOT_SENT', 'False')
+            redis.set('MESSAGE_NOT_FED_SENT ', 'False')
             print('Updated timestamps in Elastic-Cache')
             print('Given Food to cat')
         else:

@@ -42,7 +42,7 @@ def email(message):
                         'Charset': CHARSET
                     }
                 }
-            },
+            }
         }
     )
     return response
